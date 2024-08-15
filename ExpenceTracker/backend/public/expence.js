@@ -151,3 +151,4 @@ premiumButton.addEventListener("click", async () => {
   window.location.href = data.url;
   console.log(data);
 })
+displayExpence(1, localStorage.getItem("page") == null ? 10 : localStorage.getItem("page"));
